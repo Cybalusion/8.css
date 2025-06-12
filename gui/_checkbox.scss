@@ -33,8 +33,7 @@ input[type="checkbox"] {
       background: #f6f6f6;
       border: 1px solid;
       border-color: var(--button-border-color);
-      box-shadow: inset 0 0 0 1px #f4f4f4, inset 1px 1px 0 1px #aeaeae,
-        inset -1px -1px 0 1px #ddd, inset 3px 3px 6px #ccc;
+      box-shadow: white;
       box-sizing: border-box;
       transition: 0.4s;
     }
@@ -42,8 +41,7 @@ input[type="checkbox"] {
     &:hover::before {
       background: #e9f7fe;
       border-color: var(--button-border-color-hovered);
-      box-shadow: inset 0 0 0 1px #def9fa, inset 1px 1px 0 1px #79c6f9,
-        inset -1px -1px 0 1px #c6e9fc, inset 3px 3px 6px #b1dffd;
+      box-shadow: #00adef;
     }
   }
 
