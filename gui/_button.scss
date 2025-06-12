@@ -2,10 +2,8 @@ button,
 [role="button"] {
   font: var(--font);
   box-sizing: border-box;
-  border: var(--button-border);
-  border-color: var(--button-border-color);
-  border-radius: var(--border-radius);
-  box-shadow: var(--button-shadow);
+  border: 1px solid black;
+  box-shadow: none;
   color: #222;
   min-width: 75px;
   min-height: 23px;
