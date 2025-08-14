@@ -13,13 +13,7 @@ ul {
 
   &[role="menubar"] {
     display: flex;
-    background: linear-gradient(
-      #fff 20%,
-      #f1f4fa 25%,
-      #f1f4fa 43%,
-      #d4dbee 48%,
-      #e6eaf6
-    );
+    background: white;
 
     > [role="menuitem"] {
       position: relative;
